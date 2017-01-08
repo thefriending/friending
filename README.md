@@ -1,4 +1,4 @@
-![](./doc/png.png)
+![](./docs/icon.png)
 # Friending
 ---
 Friending is an online dating, friendship, and social networking mobile application that features user-created questionnaires and multiple choice questions. Friending has two primary features: joining groups to find people similar to you or registering for events happening in
