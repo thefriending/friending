@@ -1,4 +1,4 @@
-[![friending.io](https://gitlab.com/jrbeverly-friending/friending/raw/master/doc/icon.png)][friendingiourl]
+[![friending.io](https://gitlab.com/jrbeverly-friending/friending/raw/Updating_documentation/doc/icon.png)][friendingiourl]
 # Friending
 ---
 Friending is an online dating, friendship, and social networking mobile application that features user-created questionnaires and multiple choice questions. Friending has two primary features: joining groups to find people similar to you or registering for events happening in
