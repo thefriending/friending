@@ -7,10 +7,10 @@
 
 ## Summary 
 
-**Friending** is an online dating, friendship, and social networking mobile application that features user-created questionnaires and multiple choice questions. Friending has two primary features: joining groups to find people similar to you or registering for events happening in
+Friending is an online dating, friendship, and social networking mobile application that features user-created questionnaires and multiple choice questions. Friending has two primary features: joining groups to find people similar to you or registering for events happening in
 your local area.  Friending is a mobile app prototype built with Proto.io mobile app prototyping tool.
 
-The **Friending** prototype was built as part of the design of a requirements specification project.  **Friending** was built for a user manual (UM), in order to ensure that the screenshots in the user manual were visually consistent and believable.
+The Friending prototype was built as part of the design of a requirements specification project.  Friending was built for a user manual (UM), in order to ensure that the screenshots in the user manual were visually consistent and believable.
 The User Manual was designed with the goal of _deceiving_ the reader into believing that the application actually existed.  Proto.io was the perfect tool to accomplish this goal.
 
 ## Proto io
