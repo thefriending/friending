@@ -1,12 +1,22 @@
 {
-    "name": "<name>",
+    "name": "Like",
     "license": "Public Domain",
-    "url": "<url>",
+    "url": "https://thenounproject.com/term/like/201300/",
     "author": {
-        "name": "<author>",
-        "url": "<author url>"
+        "name": "Stefan Hartmann",
+        "url": "https://thenounproject.com/spirenzo"
     },
     "tags": [
-        "<tags>"
+        "Like",
+        "Special",
+        "Share",
+        "Notice",
+        "Love",
+        "Heart",
+        "Friend",
+        "Favorite",
+        "Adore",
+        "Admire",
+        "Want To Be With"
     ]
 }
