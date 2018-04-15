@@ -1,11 +1,42 @@
-image: alpine:latest
+# ---------------------------------------
+# Global
+# ---------------------------------------
 
-pages:
-  stage: deploy
+stages:
+  - "Package"
+  - "Deploy"
+
+# ----------------------------------------
+# Prescript
+# ----------------------------------------
+
+# ----------------------------------------
+# Build
+# ----------------------------------------
+
+# ----------------------------------------
+# Package
+# ----------------------------------------
+
+package-as-zip:
+  stage: "Package"
+  image: alpine:latest
   script:
-    - echo 'Copying artifacts'
+    - apk add -U zip
+    - sh build/package.sh
   artifacts:
+    expire_in: 4 weeks
     paths:
-    - public
+      - "!artifacts/*.zip"
+
+# ----------------------------------------
+# Deploy
+# ----------------------------------------
+
+deploy-to-git:
+  stage: "Deploy"
+  image: alpine:latest
+  script:
+    - sh build/deploy.sh
   only:
-  - master
+    - master
