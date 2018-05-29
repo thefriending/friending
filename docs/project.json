@@ -1,0 +1,18 @@
+{
+  "title": "Friending",
+  "tagline": "Friending prototype created using the prototyping tool Proto.io.",
+  "icon": {
+    "alt": "friending icon",
+    "path": "docs/icon/icon.svg"
+  },
+  "license": "MIT",
+  "badges": {
+    "git": "https://gitlab.com/jrbeverly-friending/friending",
+    "build": {
+      "path": "https://gitlab.com/jrbeverly-friending/friending/commits/master",
+      "status":
+        "https://gitlab.com/jrbeverly-friending/friending/badges/master/pipeline.svg"
+    }
+  },
+  "entrypoint": ""
+}
