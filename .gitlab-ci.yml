@@ -28,15 +28,3 @@ package-as-zip:
     expire_in: 4 weeks
     paths:
       - "!artifacts/*.zip"
-
-# ----------------------------------------
-# Deploy
-# ----------------------------------------
-
-deploy-to-git:
-  stage: "Deploy"
-  image: alpine:latest
-  script:
-    - sh build/deploy.sh
-  only:
-    - master
