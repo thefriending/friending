@@ -1,0 +1,22 @@
+{
+  "slug": "friending",
+  "namespace": "thefriending",
+  "status": "archived",
+  "icon": "icon.svg",
+  "license": {
+    "type": "MIT",
+    "content": "Jonathan Beverly <jrbeverly>"
+  },
+  "topics": [
+    "html",
+    "css",
+    "javascript",
+    "prototype",
+    "mockups"
+  ],
+  "languages": [
+    "HTML",
+    "JavaScript",
+    "Shell"
+  ]
+}
