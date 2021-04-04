@@ -1,0 +1,18 @@
+slug: friending
+description: 'Friending is an imaginary online dating, friendship, and social networking mobile application that features user-created questionnaires. '
+project: thefriending
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "html",
+    "css",
+    "javascript",
+    "prototype",
+    "mockups"
+  ]
