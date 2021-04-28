@@ -23,8 +23,8 @@ jobs:
         run: |
           gen-bundle \
             -dir src \
-            -baseURL https://friending.jrbeverly.me \
-            -primaryURL https://friending.jrbeverly.me \
+            -baseURL https://friending.jrbeverly.me/ \
+            -primaryURL https://friending.jrbeverly.me/ \
             -o friending.wbn
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
