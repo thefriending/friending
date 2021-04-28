@@ -1,0 +1,33 @@
+name: Generate WebBundle
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/build.bundle.yml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+      - uses: actions/setup-go@v2
+        with:
+          go-version: "^1.15"
+      - name: Install gen-bundle
+        run: |
+          go get -u github.com/WICG/webpackage/go/bundle/cmd/...
+          gen-bundle version
+      - name: Generate
+        run: |
+          gen-bundle \
+            -dir src \
+            -baseURL https://friending.jrbeverly.me/ \
+            -primaryURL https://friending.jrbeverly.me/ \
+            -o friending.wbn
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: bundle
+          path: friending.wbn
