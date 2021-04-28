@@ -1,6 +1,9 @@
 name: Generate WebBundle
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/build.bundle.yml
 
 jobs:
   build:
